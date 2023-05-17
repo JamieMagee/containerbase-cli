@@ -8,15 +8,21 @@
     "build": "tsx esbuild.ts",
     "start": "tsx src/index.ts"
   },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
   "dependencies": {
     "clipanion": "3.2.0"
   },
   "devDependencies": {
     "@tsconfig/node18": "2.0.1",
     "@types/node": "18.16.10",
+    "esbuild": "0.17.19",
     "tsx": "3.12.7",
     "pkg": "5.8.1",
     "prettier": "2.8.8",
     "typescript": "5.0.4"
-  }
+  },
+  "packageManager": "pnpm@8.5.1"
 }
